@@ -30,7 +30,7 @@ END$$
 DELIMITER ;
 
 -- This trigger fires after the new rows have been created on the Customers and Locations tables, and recreates the view with the newly updated tables. 
--- Unfortunately, it seems like triggers will not allow for the creation or replacement of views in it.
+-- Unfortunately, it seems like triggers will not allow for the creation or replacement of views in it. So this trigger cannot be created.
 DELIMITER $$
 CREATE TRIGGER update_customerLocationFinances
 	AFTER INSERT ON Customers

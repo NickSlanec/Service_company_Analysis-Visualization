@@ -1,1 +1,14 @@
-Data Visualization Analyst - Autodesk
+This is a final project for an advanced SQL course. Our assignment was to find a job posting we are interested in and create a project that would
+demonstrate our ability. I chose to focus my project on a Data Visualization Analyst position at Autodesk.
+
+In order to create visualizaitions and analysis, obviously, I needed the data. However, as I did not work at Autodesk, I did not have access to it.
+I instead used a publicly available proxy dataset of a phone service company, as Autodesk is a Sofware As A Service company. 
+
+I supplemented the data with an api call that gave me locational data (county, city, etc) from latlong coordinates found in the original dataset.
+I also added a finances dataset that connected on counties (e.g average income).
+
+After cleaning the data and storing it in an AWS S3 database, I tackled the question of: What new customers should we target?
+I first did some analysis using SQL, answering questions like: What kinds of customers will give us the highest average monthly income? 
+And: What kinds of customers have a low churn rate?
+
+I then connected my data to a Tableu dashboard and created maps and charts to better visualize my data. 
